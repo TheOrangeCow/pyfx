@@ -2,6 +2,11 @@
 
 **Terminal visual effects for Python.** Create animated fire, Matrix rain, stars, rainfall, confetti and particle explosions with one function call. Includes a tiny ASCII drawing canvas.
 
+## Install
+```bash
+pip install pyfx-terminal
+```
+
 ## Quick start
 
 ``` python
