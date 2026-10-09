@@ -120,6 +120,7 @@ def rain(fps=20, frames=None, density=0.035):
     """Show animated rainfall."""
     drops = []
     def draw(w, h, frame, color):
+        nonlocal drops
         for x in range(w):
             if random.random() < density:
                 drops.append([x, 0, random.randint(2, max(2, h // 3))])
