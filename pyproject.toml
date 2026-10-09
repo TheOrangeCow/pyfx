@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyfx-terminal"
+version = "0.1.0"
+description = "Animated terminal visual effects and ASCII graphics for Python"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+"terminal",
+"animation",
+"ascii",
+"visual-effects",
+"matrix",
+"console",
+"graphics"
+]
+classifiers = [
+"Development Status :: 3 - Alpha",
+"Environment :: Console",
+"Intended Audience :: Developers",
+"Operating System :: OS Independent",
+"Programming Language :: Python :: 3",
+"Programming Language :: Python :: 3 :: Only",
+"Topic :: Multimedia :: Graphics",
+"Topic :: Terminals"
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/TheOrangeCow/pyfx"
+Repository = "https://github.com/TheOrangeCow/pyfx"
+Issues = "https://github.com/TheOrangeCow/pyfx/issues"
+
+[tool.setuptools]
+packages = ["pyfx"]
+
+[tool.setuptools.package-data]
+pyfx = ["py.typed"]
