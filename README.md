@@ -52,7 +52,6 @@ Canvas methods can be chained. Coordinates start at the top-left corner.
 ## Examples
 
 ``` bash 
-#python examples/demo.py
 python examples/drawing.py
 ```
 ## Notes
